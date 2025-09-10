@@ -24,49 +24,49 @@ const defaultProducts = [
         id: 1,
         name: "Omnitrix",
         price: 7999,
-        image: "./Omnitrix.webp",
+        image: "./imgs/Omnitrix.webp",
         category: "Ben 10"
     },
     {
         id: 2,
         name: "Web Shooter",
         price: 2999,
-        image: "./WebShooter.jpg",
+        image: "./imgs/WebShooter.jpg",
         category: "Marvel"
     },
     {
         id: 3,
         name: "Captain America Shield",
         price: 5999,
-        image: "./CaptainAmericaShield.jpg",
+        image: "./imgs/CaptainAmericaShield.jpg",
         category: "Marvel"
     },
     {
         id: 4,
         name: "Mjolnir (Thor’s Hammer)",
         price: 6999,
-        image: "./Mjolnir.avif",
+        image: "./imgs/Mjolnir.avif",
         category: "Marvel"
     },
     {
         id: 5,
         name: "Iron Man Helmet",
         price: 8999,
-        image: "./IronManHelmet.jpeg",
+        image: "./imgs/IronManHelmet.jpeg",
         category: "Marvel"
     },
     {
         id: 6,
         name: "Batarang",
         price: 1499,
-        image: "./Batarang.jpeg",
+        image: "./imgs/Batarang.jpeg",
         category: "DC"
     },
     {
         id: 7,
         name: "Infinity Gauntlet",
         price: 9999,
-        image: "./InfinityGauntlet.webp",
+        image: "./imgs/InfinityGauntlet.webp",
         category: "Marvel"
     }
 ];
