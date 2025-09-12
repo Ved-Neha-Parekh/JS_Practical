@@ -179,3 +179,18 @@ productForm.addEventListener("submit", (e) => {
     e.preventDefault();
     addProduct();
 });
+
+const sortSelect = document.getElementById("sortSelect");
+
+sortSelect.addEventListener("change", function () {
+    let sortedProducts = [...products];
+    if (sortSelect.value === "price-asc") {
+        sortedProducts.sort((a, b) => a.price - b.price);
+        renderProducts(sortedProducts);
+    } else if (sortSelect.value === "price-desc") {
+        sortedProducts.sort((a, b) => b.price - a.price);
+        renderProducts(sortedProducts);
+    } else {
+        renderProducts(products);
+    }
+});
