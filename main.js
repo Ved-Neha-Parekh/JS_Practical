@@ -194,3 +194,15 @@ sortSelect.addEventListener("change", function () {
         renderProducts(products);
     }
 });
+
+const categoryFilter = document.getElementById("categoryFilter");
+
+categoryFilter.addEventListener("change", () => {
+    const selected = categoryFilter.value;
+    if (selected === "All") {
+        renderProducts(products);
+    } else {
+        const filtered = products.filter(p => p.category === selected);
+        renderProducts(filtered);
+    }
+})
